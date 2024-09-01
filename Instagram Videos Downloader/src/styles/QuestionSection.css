@@ -1,0 +1,28 @@
+.questionSection {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.question-one,
+.question-two {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #000;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
