@@ -1,10 +1,17 @@
 import React from "react";
 import "../styles/QuestionSection.css";
+import { Questions } from "./AllQuestionsAnswersAndFQA";
 
 function QuestionSection() {
   return (
     <div className="questionSection">
       <div className="question-one">
+        {Questions.map((item) => (
+          <div className={item.id}>
+            <h2>{item.que}</h2>
+            <p>{item.ans}</p>
+          </div>
+        ))}
         <h2>What is Terabox ?</h2>
         <p>
           TeraBox is a free cloud storage tool, offers 1TB of secure storage for
