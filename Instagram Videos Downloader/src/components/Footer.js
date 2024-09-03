@@ -1,17 +1,15 @@
 import React from "react";
 import "../styles/Footer.css";
+import { NavLink } from "react-router-dom";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-links">
-        <a href="#">PhonePrice24.com</a>
-        <a href="#">iFunny Downloader</a>
-        <a href="#">Terms & Conditions</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Contact us</a>
-        <a href="#">About us</a>
-        <a href="#">DMCA</a>
+        <NavLink to="/terms-condition">Terms & Conditions</NavLink>
+        <NavLink to="/privacy-policy">Privacy Policy</NavLink>
+        <NavLink to="/contact-us">Contact us</NavLink>
+        <NavLink to="/about-us">About us</NavLink>
       </div>
       <div className="footer-social">
         <a href="#" aria-label="Pinterest">
@@ -28,11 +26,15 @@ const Footer = () => {
         </a>
       </div>
       <p className="footer-note">
-        This website is not an official Terabox website and we are not
-        associated with terabox.app or Flextech Inc.
+        This website is an official website and we are not associated with any
+        social media or Flextech Inc.
       </p>
       <p className="footer-copyright">
-        © 2024 - Present TeraDownloader.com All rights reserved.
+        © 2024 - Present{" "}
+        <NavLink to="/" style={{ textDecoration: "none", color: "inherit" }}>
+          TheReelsDownloader.com
+        </NavLink>{" "}
+        All rights reserved.
       </p>
     </footer>
   );

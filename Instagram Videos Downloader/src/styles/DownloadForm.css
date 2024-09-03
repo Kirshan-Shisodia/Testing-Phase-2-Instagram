@@ -1,3 +1,5 @@
+/* First time update code  */
+
 /* .download-section {
   text-align: center;
   padding: 50px;
@@ -77,7 +79,9 @@
   background-color: #0056b3; 
 } */
 
-.download-section {
+/* Second time update code  */
+
+/* .download-section {
   text-align: center;
   padding: 5% 10%;
   background: linear-gradient(135deg, #e0eafc, #cfdef3);
@@ -162,4 +166,271 @@
 
 .download-button:hover {
   background-color: #0056b3;
+} */
+
+/* Third time update code  */
+
+/* .download-section {
+  text-align: center;
+  padding: 5% 10%;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.download-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.download-section p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.download-section input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.download-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
+.download-section button:hover {
+  background-color: #0056b3;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.main-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .download-section {
+    padding: 5% 5%;
+  }
+
+  .download-section h1 {
+    font-size: 1.8em;
+  }
+
+  .download-section p {
+    font-size: 0.9em;
+  }
+
+  .download-section input,
+  .download-section button {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .download-section h1 {
+    font-size: 1.5em;
+  }
+
+  .download-section p {
+    font-size: 0.85em;
+  }
+
+  .download-section input {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .download-section button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .video-player {
+    max-width: 100%;
+  }
+
+  .download-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+} */
+
+/* 4th time update code  */
+
+.download-section {
+  text-align: center;
+  padding: 5% 10%;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+}
+
+.download-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.download-section p {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+.download-section input {
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 5px; /* Margin at the bottom of the input */
+  margin-right: 15px; /* Margin to separate input from button */
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.download-section button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+  margin-top: 10px; /* Margin at the top to ensure separation from input */
+}
+
+.download-section button:hover {
+  background-color: #0056b3;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+
+.main-video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .download-section {
+    padding: 5% 5%;
+  }
+
+  .download-section h1 {
+    font-size: 1.8em;
+  }
+
+  .download-section p {
+    font-size: 0.9em;
+  }
+
+  .download-section input,
+  .download-section button {
+    max-width: 100%;
+    margin-right: 0; /* Remove margin-right for stacked layout */
+  }
+}
+
+@media (max-width: 480px) {
+  .download-section h1 {
+    font-size: 1.5em;
+  }
+
+  .download-section p {
+    font-size: 0.85em;
+  }
+
+  .download-section input {
+    padding: 8px;
+    font-size: 0.9em;
+  }
+
+  .download-section button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
+
+  .video-player {
+    max-width: 100%;
+  }
+
+  .download-button {
+    padding: 8px 16px;
+    font-size: 0.9em;
+  }
 }

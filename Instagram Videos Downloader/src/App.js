@@ -7,7 +7,6 @@ import ContactUs from "./pages/ContactUs";
 import AboutUs from "./pages/AboutUs.js";
 import Terabox from "./pages/Terabox.js";
 import PrivacyPolicy from "./pages/PrivacyPolicy.js";
-import Layout from "./components/Layout.js";
 
 function App() {
   return (
@@ -16,9 +15,9 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/facebook" element={<Facebook />} />
         <Route path="/terabox" element={<Terabox />} />
-        <Route path="/contact" element={<ContactUs />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/pp" element={<PrivacyPolicy />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
     </div>
   );

@@ -8,7 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative; /* Ensure relative positioning for absolute elements inside */
+  position: relative;
 }
 
 .logo {
@@ -17,17 +17,17 @@
 }
 
 .logo-image {
-  height: 47px; /* Default height */
+  height: 47px;
   margin-left: 18px;
   margin-right: 18px;
-  transition: height 0.3s ease; /* Smooth transition for resizing */
+  transition: height 0.3s ease;
 }
 
 .nav-toggle {
   display: none;
   flex-direction: column;
   cursor: pointer;
-  z-index: 1100; /* Ensures the toggle button stays above other content */
+  z-index: 1100;
 }
 
 .nav-toggle .bar {
@@ -58,7 +58,7 @@
 .nav-menu.open {
   display: block;
   position: absolute;
-  top: 60px; /* Adjust based on your header height */
+  top: 60px;
   left: 0;
   width: 100%;
   background-color: white;
@@ -72,6 +72,7 @@
   display: flex;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 .nav-links li {
@@ -86,10 +87,9 @@
 }
 
 .nav-links a:hover {
-  color: #007bff; /* Change to your preferred hover color */
+  color: #007bff;
 }
 
-/* Responsive Styles */
 @media (max-width: 768px) {
   .header-container {
     flex-direction: column;
@@ -132,15 +132,14 @@
   }
 }
 
-/* Responsive Styles for Smaller Screens (less than 420px) */
 @media (max-width: 420px) {
   .logo-image {
-    height: 35px; /* Smaller height for small screens */
-    margin-left: 10px; /* Adjust spacing */
+    height: 35px;
+    margin-left: 10px;
   }
 
   .nav-toggle {
-    right: 10px; /* Adjust position for small screens */
-    top: 12px; /* Adjust position for small screens */
+    right: 10px;
+    top: 12px;
   }
 }

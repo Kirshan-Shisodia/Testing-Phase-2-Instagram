@@ -38,13 +38,10 @@ function Header() {
               <NavLink to="/terabox">Terabox Videos</NavLink>
             </li>
             <li>
-              <NavLink to="/contact">Contact us</NavLink>
+              <NavLink to="/contact-us">Contact us</NavLink>
             </li>
             <li>
-              <NavLink to="/about">About us</NavLink>
-            </li>
-            <li>
-              <NavLink to="/pp">Privacy Policy</NavLink>
+              <NavLink to="/about-us">About us</NavLink>
             </li>
           </ul>
         </nav>

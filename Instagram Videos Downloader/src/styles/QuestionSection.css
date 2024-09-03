@@ -26,3 +26,9 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+
+li {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../styles/DownloadForm.css";
+import { NavLink } from "react-router-dom";
 
 function DownloadForm() {
   const [link, setLink] = useState("");
@@ -41,11 +42,13 @@ function DownloadForm() {
   return (
     <>
       <div className="download-section">
-        <h1>Download Terabox Videos & Files</h1>
+        <h1>Download Instagram Reels & Videos</h1>
         <p>
-          TeraDownloader.com simplifies Terabox file and video downloads. Skip
-          Terabox login, download directly from servers. No data storage,
-          ensuring privacy.
+          <NavLink to="/" style={{ textDecoration: "none", color: "inherit" }}>
+            The Reels Downloader<span> </span>
+          </NavLink>
+          simplifies instagram reels and videos downloads. Skip instagram login,
+          download directly from servers, ensuring privacy.
         </p>
         <input
           type="text"
