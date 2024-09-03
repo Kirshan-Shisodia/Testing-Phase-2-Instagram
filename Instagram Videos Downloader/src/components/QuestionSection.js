@@ -21,7 +21,7 @@ function QuestionSection() {
         </p>
       </div>
       <div className="question-two">
-        <h2>What is TheReelsDownloader.com?</h2>
+        <h2>What is The Reels Downloader ?</h2>
         <p>
           TheReelsDownloader.com is your go-to online tool for quickly and
           efficiently downloading Instagram videos, reels, stories, and clips.
@@ -70,7 +70,7 @@ function QuestionSection() {
       </div>
 
       <div className="question-four">
-        <h2>How to Download Videos and Reels Using TheReelsDownloader</h2>
+        <h2>How to Download Videos and Reels Using The Reels Downloader</h2>
         <p>
           Downloading videos and reels from Instagram using TheReelsDownloader
           is fast and straightforward. Here’s how:

@@ -1,4 +1,4 @@
-.questionSection {
+/* .questionSection {
   width: 80%;
   margin: 0 auto;
   padding: 20px;
@@ -31,4 +31,73 @@ li {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 15px;
+} */
+
+.questionSection {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.question-one,
+.question-two {
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 2rem; /* 32px on larger screens */
+  color: #000;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1rem; /* 16px on larger screens */
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+li {
+  font-size: 1rem; /* 16px on larger screens */
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .questionSection {
+    width: 90%;
+    padding: 15px;
+  }
+
+  h2 {
+    font-size: 1.75rem; /* 28px */
+  }
+
+  p,
+  li {
+    font-size: 0.9375rem; /* 15px */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .questionSection {
+    width: 95%;
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+
+  p,
+  li {
+    font-size: 0.875rem; /* 14px */
+  }
 }

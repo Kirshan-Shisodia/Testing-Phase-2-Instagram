@@ -362,7 +362,7 @@
 }
 
 .video-player {
-  width: 100%;
+  width: 50%;
   max-width: 100%;
   height: auto;
   margin-bottom: 10px;
@@ -383,6 +383,7 @@
 
 .download-button:hover {
   background-color: #0056b3;
+  text-decoration: none;
 }
 
 /* Responsive styles */

@@ -1,13 +1,18 @@
 import React, { useState } from "react";
 import "../styles/DownloadForm.css";
 import { NavLink } from "react-router-dom";
+import Loading from "./Loading";
 
 function DownloadForm() {
   const [link, setLink] = useState("");
   const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
   const [videoUrl, setVideoUrl] = useState("");
 
   const handleDownload = async () => {
+    setVideoUrl("");
+    setLoading(true);
+
     if (!link) {
       setMessage("Please enter instagram reel url");
       return;
@@ -35,7 +40,10 @@ function DownloadForm() {
 
       setMessage("Reel Fetched Successfully");
     } catch (error) {
+      console.log("Error");
       setMessage(`Error: ${error.message}`);
+    } finally {
+      setLoading(false);
     }
   };
 
@@ -56,11 +64,12 @@ function DownloadForm() {
           value={link}
           onChange={(e) => setLink(e.target.value)}
         />
-        <button type="submit" onClick={handleDownload}>
+        <button type="submit" disabled={loading} onClick={handleDownload}>
           Download
         </button>
       </div>
       <div className="video-container">
+        {loading && <Loading />}
         {videoUrl && (
           <div className="main-video-container">
             <video controls className="video-player">
